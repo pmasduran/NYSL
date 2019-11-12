@@ -1,0 +1,87 @@
+header {
+    height: 200px;
+    background-image: url("Drawables/design2_image1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    margin-bottom: 1em;
+}
+
+h2 {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 6em;
+}
+
+section{
+    float: left;
+    /*border-style: solid;
+    border-color: black;*/ 
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+    padding: 2em;
+    margin-left: 4em;
+    margin-right: 2em;
+    width: 20%;
+    text-decoration: none;
+}
+
+aside{
+    float:left;
+    /*border-style: solid;
+    border-color: black;*/
+    width: 80%;
+    padding-right: 1em;
+    
+}
+
+.text{
+    float: left;
+    /*border-style: solid;
+    border-color: black;*/ 
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bold{
+    text-decoration: underline;
+}
+
+.date{
+    font-style: italic;
+}
+
+.padding{
+    padding: 1em;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    float:right;
+    padding-right: 5em;
+    padding-top: 5em;
+}
+.padding-left{
+    padding-left: 6em;
+}
+
+.br{
+    display:block;
+}
+
+.weird_space{
+    padding-left:1em;
+}
+
+.padding-bot{
+    padding-bottom: 1em;
+}
+/*Chalckboard*/

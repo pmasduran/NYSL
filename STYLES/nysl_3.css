@@ -1,0 +1,228 @@
+/**{
+    border:solid;
+}*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size:90px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+}
+
+
+
+header {
+    height: 300px;
+    background-image: url("Drawables/Youth-Soccer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 1em;
+
+}
+
+.background{
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+table{
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;;
+}
+
+.wider{
+    width:80em;
+}
+div{
+    background-color:rgba(255, 255, 255,0.5);
+    /*border:solid;*/
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding:1em;
+}
+
+.register_p{
+    display:flexbox;
+    align-items: baseline;
+    justify-content: center;
+    background-color: rgba(255, 255, 255,0);
+    /*border:solid;*/
+
+}
+
+h5{
+    background-color:rgba(255, 255, 255,0.5);
+    font-size: 17px;
+}
+
+
+ul{
+    list-style-type: square;
+    margin: 0em 0em 1em 0em;
+}
+
+ol{
+    margin-bottom: 1em;
+}
+
+.a{
+    list-style-type:"a";
+}
+
+li{
+    margin: 0em 0em 1em 3em;
+}
+
+.specific_ol{
+    margin: 0em 0em 0em 3em;
+}
+.small_ol{
+    margin: 0em 0em 0em 6em; 
+    padding-top:0em;
+}
+
+td{
+    padding-right:1em;
+    vertical-align: top;
+}
+table{
+    margin-bottom:2em;
+
+}
+
+thead{
+    font-weight:bold;
+}
+th{
+    text-decoration:underline
+}
+
+.flex_column{
+    flex-direction:column;
+}
+
+h2 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position:absolute;
+    padding-bottom: 1.5em;
+    top: 12em;
+}
+
+section{
+    /*border-style: solid;
+    border-color: black;*/ 
+    position:absolute;
+    top:20.3em;
+    right:20em;
+
+}
+
+.column{
+    border:solid;
+    background-color: black;
+    color: white;
+    margin-left: 2em;
+    text-decoration:none;
+    border:black;
+    border-radius: 14px;
+    padding: 0.3em;
+}
+
+.column:hover{
+    background-color:gray;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+p{
+    padding-left:2em;
+    padding-bottom: 2em;
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+aside{
+    /*border-style: solid;
+    border-color: black;*/
+    padding-top: 2em;
+    margin:3em 5em 5em 5em;
+    background-image: url("./Drawables/nysl_logo.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.text{
+    float: left;
+    /*border-style: solid;
+    border-color: black;*/ 
+}
+
+.title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.b{
+    font-weight:bold;
+}
+
+.bold{
+    font-weight:bold;
+    background-color: gray;
+}
+
+.date{
+    font-style: italic;
+}
+
+.padding{
+    padding: 1em;
+}
+
+.logo{
+    width: 600px;
+    height: auto;
+    padding-right: 5em;
+    position:absolute;
+    top: 20em;
+    left: 24em;
+    opacity:0.2;
+    z-index: -1;
+    display:none;
+}
+.padding-left{
+    padding-left: 0em;
+}
+
+.br{
+    display:block;
+    padding-left:0;
+}
+
+.weird_space{
+    float:left;
+    padding-left:2em;
+}
+
+.padding-bot{
+    padding-bottom: 1em;
+}
+
+.inline{
+    margin-top: 2em;
+}
+
+
+/*Chalckboard*/
